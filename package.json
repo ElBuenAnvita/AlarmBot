@@ -1,0 +1,19 @@
+{
+  "name": "alarmbot",
+  "description": "Bot para despertar",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "discord.js": "12.5.3",
+    "got": "9.2.2",
+    "humanize-duration": "^3.27.0",
+    "infinite-loop": "0.2.2",
+    "luxon": "^2.1.1",
+    "nekos.life": "1.1.4",
+    "request": "2.81.0"
+  }
+}
