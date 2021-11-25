@@ -24,7 +24,7 @@ setInterval(function () {
             });
         }
     })
-}, 500);
+}, 25000);
 
 client.on('message', message => {
     let args = message.content.substring(prefix.length).split(" ");
