@@ -7,6 +7,8 @@ const prefix = "a!"; // Prefijo
 let usuariospending = {};
 // { guild: #, user: #, timestamp: # }
 
+client.user.setActivity('¡En línea!');
+
 setInterval(function () {
     usuariospending.forEach((el) => {
         if (el.timestamp > DateTime.now().toMillis()) {
