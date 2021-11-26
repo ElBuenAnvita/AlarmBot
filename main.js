@@ -41,7 +41,7 @@ client.on('message', message => {
 
     if (message.content.startsWith(prefix + "set-alarm")) {
         if(args.length !== 4) {
-            message.channel.send("Requieres de 4 argumentos para el buen uso de este comando.\nUso correcto: `a!set-alarm @persona 6:00 UTC-5`");
+            message.channel.send("Requieres de 4 argumentos para el buen uso de este comando.\nUso correcto: `a!set-alarm @persona 14:00 UTC-5`");
         } else {
             let fecha = luxon.DateTime.fromFormat(args[2], 'H:mm', { zone: args[3], setZone: true }).toMillis();
 
