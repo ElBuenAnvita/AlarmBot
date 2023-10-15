@@ -13,6 +13,7 @@
     "humanize-duration": "^3.27.0",
     "infinite-loop": "0.2.2",
     "luxon": "^2.1.1",
+    "moment": "^2.29.1",
     "nekos.life": "1.1.4",
     "request": "2.81.0"
   }
